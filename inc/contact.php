@@ -46,7 +46,7 @@
 
                     <div class="six columns">
                         <?php if (isset($_GET['contacted'])): ?>
-                            <p class="contact-success">Message was sended</p>
+                            <p class="contact-subheading">Message was sended</p>
                         <?php endif; ?>
 
                         <form class="contact-form" action="form.php" method="POST">
